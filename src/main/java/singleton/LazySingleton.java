@@ -1,6 +1,9 @@
 package singleton;
 
-public class LazySingleton {
+import java.io.Serial;
+import java.io.Serializable;
+
+public class LazySingleton implements Serializable {
 
     private static LazySingleton singletonDemo=null;
 
@@ -14,6 +17,12 @@ public class LazySingleton {
         if (singletonDemo==null){
             singletonDemo=new LazySingleton();
         }
+        return singletonDemo;
+    }
+
+    // solution to breaking with serialization
+    @Serial
+    public Object readResolve(){
         return singletonDemo;
     }
 
