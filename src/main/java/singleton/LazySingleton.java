@@ -8,8 +8,9 @@ public class LazySingleton implements Serializable {
     private static LazySingleton singletonDemo=null;
 
     private LazySingleton() throws Exception {
+        // solution to breaking using reflections
         if (singletonDemo!=null){
-            throw new Exception("object already exists");
+            throw new Exception("you are trying to break singleton using reflections");
         }
     }
 
