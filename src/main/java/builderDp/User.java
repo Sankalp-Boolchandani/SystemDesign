@@ -24,6 +24,11 @@ public class User {
         return email;
     }
 
+    @Override
+    public String toString() {
+        return username+" : "+userId+" : "+email;
+    }
+
     public static class UserBuilder{
 
         private String username;
