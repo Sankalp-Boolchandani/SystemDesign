@@ -24,8 +24,3 @@ public class Main {
     }
 
 }
-
-// Prototype DP is used when we want to create a new object of a class that contains complex logics
-// or big files that might take some time for loading. Such objects would take overhead for creation, and
-// it would be a bad practise to create such big objects again and again. So using Prototype DP. we create the object of a complex class
-// only once and if its required to create a similar object again, we clone the object.
