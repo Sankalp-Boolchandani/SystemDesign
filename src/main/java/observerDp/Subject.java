@@ -2,8 +2,8 @@ package observerDp;
 
 public interface Subject {
 
-    void subscribe(Subscriber s);
-    void unsubscribe(Subscriber s);
-    void sendNotification();
+    void subscribe(Observer s);
+    void unsubscribe(String s);
+    void sendNotification(String videoName);
 
 }

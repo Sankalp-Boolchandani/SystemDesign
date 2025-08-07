@@ -2,6 +2,7 @@ package observerDp;
 
 public interface Observer {
 
-    void notified();
+    String getName();
+    void notified(String videoName);
 
 }
