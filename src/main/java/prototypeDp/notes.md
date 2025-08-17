@@ -9,4 +9,5 @@ only once and if its required to create a similar object again, we clone the obj
 - Say suppose we create obj1 and clone obj2 from it, if we change the obj1 data, data in obj2 also changes and vice versa.
 - to overcome this, we use **DEEP COPY**
 - **what is Deep Copy??** --- deep copy is when we copy all the nested objects of the main object(obj1 here) and even if we change the contents of obj1, obj2 stays intact.
+- Deep copying is achieved by overriding clone() method
 - This is the complete working of Prototype DP.
