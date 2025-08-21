@@ -1,2 +1,1 @@
 - Iterator Design Pattern
-- Adapter Design Pattern
