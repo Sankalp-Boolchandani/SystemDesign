@@ -1,5 +1,6 @@
 - Singleton Design Pattern
 - Factory Design Pattern
+- Abstract Factory Design Pattern
 - Builder Design Pattern
 - Iterator Design Pattern
 - Observer Design Pattern
@@ -7,14 +8,17 @@
 - Adapter Design Pattern
 --------------------------------------------------------------
 - Strategy Design Pattern
-- Decorator Design Pattern
 - Command Design Pattern
+- Decorator Design Pattern
+- State Design Pattern
 - Facade Design Pattern
 - Composite Design Pattern
+- Chain of Responsibility Design Pattern
 - Proxy Design Pattern
-- State Design Pattern
-- Decorator Design Pattern
 - Mediator Design Pattern
+- Template Method Design Pattern
+- Bridge Design Pattern
 - Visitor Design Pattern
 - Memento Design Pattern
 - Flyweight Design Pattern
+- Interpreter Design Pattern
