@@ -6,8 +6,8 @@
 - Observer Design Pattern
 - Prototype Design Pattern
 - Adapter Design Pattern
---------------------------------------------------------------
 - Strategy Design Pattern
+--------------------------------------------------------------
 - Command Design Pattern
 - Decorator Design Pattern
 - State Design Pattern
