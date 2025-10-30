@@ -18,7 +18,7 @@ public class Main {
 //        instance.hashCode();
 
 
-        // using constructors(reflections API) to break singleton
+//         using constructors(reflections API) to break singleton
 //        LazySingleton instance1 = LazySingleton.getInstance();
 //        Constructor<?>[] declaredConstructors = LazySingleton.class.getDeclaredConstructors();
 //        declaredConstructors[0].setAccessible(true);
@@ -27,7 +27,7 @@ public class Main {
 //        System.out.println(instance1.hashCode());
 //        System.out.println(instance2.hashCode());
 
-        // breaking singleton with serialization
+//         breaking singleton with serialization
 //        LazySingleton lazySingleton=LazySingleton.getInstance();
 //        ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream("abc.obj"));
 //        oos.writeObject(lazySingleton);
